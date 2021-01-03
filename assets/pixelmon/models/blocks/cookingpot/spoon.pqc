@@ -1,0 +1,3 @@
+$body spoon.smd
+$anim special spoon_special.bmd
+$anim idle spoon_idle.smd

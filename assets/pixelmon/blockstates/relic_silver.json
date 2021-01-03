@@ -1,0 +1,100 @@
+{
+    "multipart": [
+        {   "apply": [
+				{ "model": "pixelmon:relic_silver_0", "weight": 1 },
+				{ "model": "pixelmon:relic_silver_0", "y": 90, "weight": 1 },
+				{ "model": "pixelmon:relic_silver_0", "y": 180, "weight": 1 },
+				{ "model": "pixelmon:relic_silver_0", "y": 270, "weight": 1 }
+			]
+        },
+        {   "when": { "OR": [
+				{"layers": 2 },
+				{"layers": 3 },
+				{"layers": 4 },
+				{"layers": 5 },
+				{"layers": 6 },
+				{"layers": 7 },
+				{"layers": 8 }
+			]},
+            "apply": [
+				{ "model": "pixelmon:relic_silver_1", "weight": 2 },
+				{ "model": "pixelmon:relic_silver_1", "y": 90, "weight": 2 },
+				{ "model": "pixelmon:relic_silver_1", "y": 180, "weight": 2 },
+				{ "model": "pixelmon:relic_silver_1", "y": 270, "weight": 2 }
+			]
+        },
+        {   "when": { "OR": [
+				{"layers": 3 },
+				{"layers": 4 },
+				{"layers": 5 },
+				{"layers": 6 },
+				{"layers": 7 },
+				{"layers": 8 }
+			]},
+            "apply": [
+				{ "model": "pixelmon:relic_silver_2", "weight": 3 },
+				{ "model": "pixelmon:relic_silver_2", "y": 90, "weight": 3 },
+				{ "model": "pixelmon:relic_silver_2", "y": 180, "weight": 3 },
+				{ "model": "pixelmon:relic_silver_2", "y": 270, "weight": 3 }
+			]
+        },
+        {   "when": { "OR": [
+				{"layers": 4 },
+				{"layers": 5 },
+				{"layers": 6 },
+				{"layers": 7 },
+				{"layers": 8 }
+			]},
+            "apply": [
+				{ "model": "pixelmon:relic_silver_3", "weight": 4 },
+				{ "model": "pixelmon:relic_silver_3", "y": 90, "weight": 4 },
+				{ "model": "pixelmon:relic_silver_3", "y": 180, "weight": 4 },
+				{ "model": "pixelmon:relic_silver_3", "y": 270, "weight": 4 }
+			]
+        },
+        {   "when": { "OR": [
+				{"layers": 5 },
+				{"layers": 6 },
+				{"layers": 7 },
+				{"layers": 8 }
+			]},
+            "apply": [
+				{ "model": "pixelmon:relic_silver_4", "weight": 5 },
+				{ "model": "pixelmon:relic_silver_4", "y": 90, "weight": 5 },
+				{ "model": "pixelmon:relic_silver_4", "y": 180, "weight": 5 },
+				{ "model": "pixelmon:relic_silver_4", "y": 270, "weight": 5 }
+			]
+        },
+        {   "when": { "OR": [
+				{"layers": 6 },
+				{"layers": 7 },
+				{"layers": 8 }
+			]},
+            "apply": [
+				{ "model": "pixelmon:relic_silver_5", "weight": 6 },
+				{ "model": "pixelmon:relic_silver_5", "y": 90, "weight": 6 },
+				{ "model": "pixelmon:relic_silver_5", "y": 180, "weight": 6 },
+				{ "model": "pixelmon:relic_silver_5", "y": 270, "weight": 6 }
+			]
+        },
+        {   "when": { "OR": [
+				{"layers": 7 },
+				{"layers": 8 }
+			]},
+            "apply": [
+				{ "model": "pixelmon:relic_silver_6", "weight": 7 },
+				{ "model": "pixelmon:relic_silver_6", "y": 90, "weight": 7 },
+				{ "model": "pixelmon:relic_silver_6", "y": 180, "weight": 7 },
+				{ "model": "pixelmon:relic_silver_6", "y": 270, "weight": 7 }
+			]
+        },
+        {   "when": {"layers": 8 },
+            "apply": [
+				{ "model": "pixelmon:relic_silver_7", "weight": 8 },
+				{ "model": "pixelmon:relic_silver_7", "y": 90, "weight": 8 },
+				{ "model": "pixelmon:relic_silver_7", "y": 180, "weight": 8 },
+				{ "model": "pixelmon:relic_silver_7", "y": 270, "weight": 8 }
+			]
+        }
+    ]
+}

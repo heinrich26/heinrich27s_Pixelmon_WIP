@@ -1,0 +1,6 @@
+{
+	"parent": "pixelmon:block/pokedollar_5",
+	"textures": {
+		"coin": "pixelmon:items/relic_copper"
+	}
+}

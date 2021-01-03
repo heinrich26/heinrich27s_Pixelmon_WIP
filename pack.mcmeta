@@ -1,0 +1,15 @@
+{
+  "pack": {
+	"pack_format": 3,
+    "description": "Pixelmon W.I.P. by heinrich27"
+  },
+
+  "meta": {
+    "pack_type": 3,
+    "pack_version": "1",
+    "game_version": "1.12.2",
+    "pack_resolution": "16x",
+    "description": "Pixelmon W.I.P. by heinrich27",
+    "consists": "Pixelmon test models and random stuff"
+  }
+}
